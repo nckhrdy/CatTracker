@@ -13,6 +13,10 @@ The ESP is sending sensor data to the node server which is accesible using DDNS 
 
 The main file is the JavaScript code which creates a web server and a UDP server using the Node.js runtime. It listens for incoming UDP messages from an ESP32 device or in the case of the LED sends messages, displays a live camera stream, and logs the temperature data. It also allows users to toggle an LED on the ESP32 device. We speak more on the logistics of this file and the files it is communnicating with, in the code README. 
 
+### Supporting Artifacts
+- Link to video technical presentation: https://drive.google.com/file/d/12eR8UgpHKT6jM2_554wGzWqDpfIph-i9/view?usp=sharing
+- Link to video demo: https://drive.google.com/file/d/1ePfheROx0aEy6aM1t0R8ZFqLJavN3SvL/view?usp=sharing
+
 ### Self-Assessment 
 
 | Objective Criterion | Rating | Max Value  | 
@@ -35,11 +39,6 @@ In order to create this cat tracker, we used a two ESP 32's, an LED, a thermiste
 ![Untitled (Draft)](https://user-images.githubusercontent.com/47408944/226778419-2b3fc474-b882-459a-ae11-dd482e9d716d.jpeg)
 
 <img width="615" alt="Screen Shot 2023-03-21 at 9 30 23 PM" src="https://user-images.githubusercontent.com/47408944/226778562-4ecacd10-c57e-4b8c-b929-cb0f00450609.png">
-
-### Supporting Artifacts
-- Link to video technical presentation: https://drive.google.com/file/d/12eR8UgpHKT6jM2_554wGzWqDpfIph-i9/view?usp=sharing
-- Link to video demo: https://drive.google.com/file/d/1ePfheROx0aEy6aM1t0R8ZFqLJavN3SvL/view?usp=sharing
-
 
 
 ### Modules, Tools, Source Used Including Attribution
